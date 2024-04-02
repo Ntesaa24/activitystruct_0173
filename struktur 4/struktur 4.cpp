@@ -3,13 +3,21 @@
 using namespace std;
 
 struct DetailAlamat {
-	string desa; 
-	string kota 
+	string desa;
+	string kota;
 };
 
-struct Mahasiswa {
+struct Mahasiswa { 
 	string nim; 
 	string nama; 
 	DetailAlamat alamat; 
-	int umur 
+	int umur; 
 };
+
+int main() {
+	Mahasiswa mhs[3]; 
+	for (int i = 0; i < 3; i++) {
+		
+	}
+
+}
